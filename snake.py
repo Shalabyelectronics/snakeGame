@@ -1,8 +1,6 @@
 from turtle import Turtle
 
 
-
-
 class Snake(Turtle):
     def __init__(self):
         super().__init__()
@@ -22,16 +20,12 @@ class Snake(Turtle):
         return snake_segments
 
     def snake_animation(self):
-        for seg in range(len(self.snake_shape) -1, 0, -1):
-            snake_seg = self.snake_shape[seg - 1]
-            new_x = snake_seg.xcor()
-            new_y = snake_seg.ycor()
-            snake_seg.goto(new_x, new_y)
-        self.snake_shape[0].forward(20)
-
-
-
-
+        snak_parts =self.snake_shape
+        for seg in range(len(snak_parts) - 1, 0, -1):
+           new_x = snak_parts[seg - 1].xcor()
+           new_y = snak_parts[seg - 1].ycor()
+           snak_parts[seg].goto(new_x, new_y)
+        snak_parts[0].forward(20)
 
 
 

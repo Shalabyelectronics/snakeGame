@@ -11,10 +11,14 @@ screen.title("My Nokia 3310 Snake Game.")
 screen.tracer(0)
 
 test = Snake()
-
+test.snake_animation()
 while True:
-   screen.update()
-   time.sleep(0.1)
-   test.snake_animation()
+    screen.update()
+    time.sleep(0.1)
+    test.snake_animation()
+
+
+
+
 
 screen.exitonclick()
