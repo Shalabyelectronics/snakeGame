@@ -12,45 +12,19 @@ screen.tracer(0)
 screen.listen()
 
 test = Snake()
+screen.update()
 
+screen.onkey(key="d", fun=test.turn_right)
+screen.onkey(key="w", fun=test.turn_up)
+screen.onkey(key="s", fun=test.turn_down)
+screen.onkey(key="a", fun=test.turn_left)
 
-def snake_forward():
+x = 0
+
+while x < 100:
     screen.update()
     time.sleep(0.1)
-    test.snake_animation()
-    test.snake_shape[0].forward(20)
-
-
-# TODO Controler W, S, D, A
-def turn_right():
-    test.snake_animation()
-    test.snake_shape[0].setheading(0)
-
-
-def turn_up():
-    test.snake_animation()
-    test.snake_shape[0].setheading(90)
-
-
-def turn_down():
-    test.snake_animation()
-    test.snake_shape[0].setheading(270)
-
-
-def turn_left():
-    test.snake_animation()
-    test.snake_shape[0].setheading(180)
-
-
-
-
-
-
-screen.onkey(key="w", fun=turn_up)
-screen.onkey(key="s", fun=turn_down)
-screen.onkey(key="d", fun=turn_right)
-screen.onkey(key="a", fun=turn_left)
-screen.onkeypress(key="space", fun=snake_forward)
-
+    test.move()
+    x += 1
 
 screen.exitonclick()
