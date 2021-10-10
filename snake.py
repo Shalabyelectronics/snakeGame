@@ -3,6 +3,10 @@ from turtle import Turtle
 POSITIONS = [0, -20, -40]
 SNAKE_SEGMENTS = []
 DISTANCE = 20
+UP = 90
+DOWN = 270
+RIGHT = 0
+LEFT = 180
 
 
 class Snake(Turtle):
@@ -28,13 +32,17 @@ class Snake(Turtle):
 
     # TODO Controler W, S, D, A
     def turn_right(self):
-        self.snake_head.setheading(0)
+        if self.snake_head.heading() != LEFT:
+            self.snake_head.setheading(RIGHT)
 
     def turn_up(self):
-        self.snake_head.setheading(90)
+        if self.snake_head.heading() != DOWN:
+            self.snake_head.setheading(UP)
 
     def turn_down(self):
-        self.snake_head.setheading(270)
+        if self.snake_head.heading() != UP:
+            self.snake_head.setheading(DOWN)
 
     def turn_left(self):
-        self.snake_head.setheading(180)
+        if self.snake_head.heading() != RIGHT:
+            self.snake_head.setheading(LEFT)
