@@ -7,15 +7,16 @@ UP = 90
 DOWN = 270
 RIGHT = 0
 LEFT = 180
+segments = 3
 
 
-class Snake(Turtle):
+class Snake:
     def __init__(self):
         self.snake_shape = self.create_snake()
         self.snake_head = self.snake_shape[0]
 
     def create_snake(self):
-        for seg in range(3):
+        for seg in range(segments):
             segment = Turtle("square")
             segment.color("white")
             segment.penup()
