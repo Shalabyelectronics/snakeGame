@@ -1,7 +1,5 @@
 from turtle import Turtle
 
-
-screen = Screen()
 POSITIONS = [0, -20, -40]
 SNAKE_SEGMENTS = []
 DISTANCE = 20
@@ -26,9 +24,7 @@ class Snake(Turtle):
             new_x = self.snake_shape[seg - 1].xcor()
             new_y = self.snake_shape[seg - 1].ycor()
             self.snake_shape[seg].goto(new_x, new_y)
-            print(self.snake_shape[seg].heading())
         self.snake_shape[0].forward(DISTANCE)
-        print(self.snake_shape[0].heading())
 
     # TODO Controler W, S, D, A
     def turn_right(self):
