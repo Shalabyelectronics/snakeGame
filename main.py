@@ -23,7 +23,7 @@ screen.onkey(key="a", fun=test.turn_left)
 
 x = 0
 
-while x < 200:
+while x < 2000:
     screen.update()
     time.sleep(0.1)
     test.move()
