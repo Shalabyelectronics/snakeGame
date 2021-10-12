@@ -12,8 +12,7 @@ class Food(Turtle):
         self.shapesize(0.5, 0.5)
         self.food_generator()
 
-
     def food_generator(self):
-        x = random.randint(-280, 280)
-        y = random.randint(-280, 260)
+        x = random.randint(-250, 250)
+        y = random.randint(-250, 250)
         self.goto(x, y)

@@ -24,5 +24,14 @@ class Scoreboard(Turtle):
         self.clear()
         self.score += 1
 
+    def wall_hit(self):
+        self.speed("fastest")
+        self.home()
+        self.write(arg="Game Over", move=False, align="center", font=("Calibre", 30, "bold"))
+
+
+
+
+
 
 

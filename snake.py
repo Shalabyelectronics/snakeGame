@@ -1,6 +1,7 @@
 from turtle import Turtle
 
 SNAKE_SEGMENTS = []
+
 DISTANCE = 20
 UP = 90
 DOWN = 270
@@ -60,3 +61,4 @@ class Snake:
     def turn_left(self):
         if self.snake_head.heading() != RIGHT:
             self.snake_head.setheading(LEFT)
+

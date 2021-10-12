@@ -1,5 +1,5 @@
 # TODO 1 Create the snake body
-from snake import Snake
+from snake import Snake, SNAKE_SEGMENTS
 from turtle import Screen
 from food import Food
 from scoreboard import Scoreboard
@@ -23,20 +23,36 @@ screen.onkey(key="s", fun=test.turn_down)
 screen.onkey(key="a", fun=test.turn_left)
 
 
-x = 0
+def wall_collision(snake):
+    if snake.xcor() > 280 or snake.xcor() < -280 or snake.ycor() > 280 or snake.ycor() < -280:
+        return True
 
-while x < 2000:
+
+def snake_tail_collision(snake_head):
+    for index in range(2, len(SNAKE_SEGMENTS)):
+        if snake_head.distance(SNAKE_SEGMENTS[index]) < 10:
+            print(SNAKE_SEGMENTS[index].pos())
+            print(snake_head.pos())
+            return True
+
+
+game_on = True
+
+while game_on:
     screen.update()
     time.sleep(0.1)
     test.move()
-    # print(test.snake_head.distance(food))
     if test.snake_head.distance(food) <= 15:
         screen.tracer(0)
         test.snake_incress()
         food.food_generator()
         score_board.update_score()
-        print(score_board.score)
-    x += 1
 
+    if wall_collision(test.snake_head):
+        score_board.wall_hit()
+        game_on = False
+    if snake_tail_collision(test.snake_head):
+        score_board.wall_hit()
+        game_on = False
 
 screen.exitonclick()
