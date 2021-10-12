@@ -1,6 +1,7 @@
 from turtle import Turtle
 
 
+
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
@@ -8,6 +9,20 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.penup()
         self.goto(0, 270)
-        self.write(arg="Score : 0", move=False, align="center", font=("Calibri", 18, "bold"))
+        self.score = 0
+        self.score_refresh()
+
+
+    def score_refresh(self):
+        self.write(arg=f"Score : {self.score}", move=False, align="center", font=("Calibre", 18, "bold"))
+
+    def update_score(self):
+        self.incress_score()
+        self.score_refresh()
+
+    def incress_score(self):
+        self.clear()
+        self.score += 1
+
 
 

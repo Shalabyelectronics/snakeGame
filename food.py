@@ -9,10 +9,11 @@ class Food(Turtle):
         self.color("green")
         self.penup()
         self.turtlesize(1)
-        self.goto(50, 50)
+        self.shapesize(0.5, 0.5)
+        self.food_generator()
 
 
     def food_generator(self):
         x = random.randint(-280, 280)
-        y = random.randint(-280, 280)
+        y = random.randint(-280, 260)
         self.goto(x, y)
