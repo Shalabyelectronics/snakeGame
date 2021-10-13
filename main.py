@@ -1,5 +1,5 @@
 # TODO 1 Create the snake body
-from snake import Snake, SNAKE_SEGMENTS
+from snake import Snake
 from turtle import Screen
 from food import Food
 from scoreboard import Scoreboard
@@ -29,9 +29,9 @@ def wall_collision(snake):
 
 
 def snake_tail_collision(snake_head):
-    for index in range(2, len(SNAKE_SEGMENTS)):
-        if snake_head.distance(SNAKE_SEGMENTS[index]) < 10:
-            print(SNAKE_SEGMENTS[index].pos())
+    for index in range(2, len(test.snake_segments)):
+        if snake_head.distance(test.snake_segments[index]) < 10:
+            print(test.snake_segments[index].pos())
             print(snake_head.pos())
             return True
 
