@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91002f54-0260-405c-a39c-b1ae8d92a253" name="Changes" comment="Add a game over method to Scoreboard class" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="scoreboard_class" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ypUMoU34JpriQD0p7Kys1jMcOo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\fuad.sh\PycharmProjects\pythonProject\day_17_start\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snake.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="snakeGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.snake" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.snake" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91002f54-0260-405c-a39c-b1ae8d92a253" name="Changes" comment="" />
+      <created>1632947977173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632947977173</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠١" summary="create the snake body">
+      <created>1632948650211</created>
+      <option name="number" value="LOCAL؜٠٠٠٠١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
+      <updated>1632948650211</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٢" summary="create the snake controller">
+      <created>1633029195913</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٢" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٢" />
+      <updated>1633029195913</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٣" summary="create the snake body by using a for loop">
+      <created>1633032394451</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٣" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٣" />
+      <updated>1633032394451</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٤" summary="fixing the animation blinks while snake parts moving">
+      <created>1633036606501</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٤" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٤" />
+      <updated>1633036606501</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٥" summary="Create snake border function that keep my cute snake inside the box.">
+      <created>1633118306141</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٥" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٥" />
+      <updated>1633118306141</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٦" summary="fix the snake movement.">
+      <created>1633235532896</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٦" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٦" />
+      <updated>1633235532896</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٧" summary="Move my snake to OOP">
+      <created>1633691835519</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٧" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٧" />
+      <updated>1633691835519</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٨" summary="creat snake animation method">
+      <created>1633702769530</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٨" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٨" />
+      <updated>1633702769530</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٩" summary="Create snake control">
+      <created>1633774012465</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٩" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٩" />
+      <updated>1633774012465</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٠" summary="integrat the controler inside snake class">
+      <created>1633781594079</created>
+      <option name="number" value="LOCAL؜٠٠٠١٠" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٠" />
+      <updated>1633781594079</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١١" summary="Remove the Screen Class from snake module">
+      <created>1633850898177</created>
+      <option name="number" value="LOCAL؜٠٠٠١١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١١" />
+      <updated>1633850898177</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٢" summary="create a food class file">
+      <created>1633851013647</created>
+      <option name="number" value="LOCAL؜٠٠٠١٢" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٢" />
+      <updated>1633851013647</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٣" summary="Test food and snake collision">
+      <created>1633860318821</created>
+      <option name="number" value="LOCAL؜٠٠٠١٣" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٣" />
+      <updated>1633860318821</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٤" summary="Test food and snake collision">
+      <created>1633860344110</created>
+      <option name="number" value="LOCAL؜٠٠٠١٤" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٤" />
+      <updated>1633860344110</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٥" summary="Test food and snake collision">
+      <created>1633863710578</created>
+      <option name="number" value="LOCAL؜٠٠٠١٥" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٥" />
+      <updated>1633863710578</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٦" summary="Update my snake increase method to hide the food">
+      <created>1633950863319</created>
+      <option name="number" value="LOCAL؜٠٠٠١٦" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٦" />
+      <updated>1633950863319</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٧" summary="Update my snake increase method to hide the food">
+      <created>1633951750165</created>
+      <option name="number" value="LOCAL؜٠٠٠١٧" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٧" />
+      <updated>1633951750165</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٨" summary="create scoreboard class">
+      <created>1633961647146</created>
+      <option name="number" value="LOCAL؜٠٠٠١٨" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٨" />
+      <updated>1633961647146</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٩" summary="Update the Score board">
+      <created>1634037814685</created>
+      <option name="number" value="LOCAL؜٠٠٠١٩" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٩" />
+      <updated>1634037814685</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٢٠" summary="Add a game over method to Scoreboard class">
+      <created>1634049085225</created>
+      <option name="number" value="LOCAL؜٠٠٠٢٠" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٢٠" />
+      <updated>1634049085225</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Snake_move_forward" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create the snake body" />
+    <MESSAGE value="create the snake controller" />
+    <MESSAGE value="create the snake body by using a for loop" />
+    <MESSAGE value="fixing the animation blinks while snake parts moving" />
+    <MESSAGE value="Create snake border function that keep my cute snake inside the box." />
+    <MESSAGE value="fix the snake movement." />
+    <MESSAGE value="Move my snake to OOP" />
+    <MESSAGE value="creat snake animation method" />
+    <MESSAGE value="Create snake control" />
+    <MESSAGE value="integrat the controler inside snake class" />
+    <MESSAGE value="Remove the Screen Class from snake module" />
+    <MESSAGE value="create a food class file" />
+    <MESSAGE value="Test food and snake collision" />
+    <MESSAGE value="Update my snake increase method to hide the food" />
+    <MESSAGE value="create scoreboard class" />
+    <MESSAGE value="Update the Score board" />
+    <MESSAGE value="Add a game over method to Scoreboard class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a game over method to Scoreboard class" />
+  </component>
+</project>

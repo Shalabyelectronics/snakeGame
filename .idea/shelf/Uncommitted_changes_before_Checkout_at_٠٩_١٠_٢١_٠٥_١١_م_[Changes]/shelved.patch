@@ -1,0 +1,47 @@
+Index: snake.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from turtle import Turtle\r\n\r\n\r\nscreen = Screen()\r\nPOSITIONS = [0, -20, -40]\r\nSNAKE_SEGMENTS = []\r\nDISTANCE = 20\r\n\r\n\r\nclass Snake(Turtle):\r\n    def __init__(self):\r\n        self.snake_shape = self.create_snake()\r\n        self.snake_head = self.snake_shape[0]\r\n\r\n    def create_snake(self):\r\n        for seg in range(3):\r\n            segment = Turtle(\"square\")\r\n            segment.color(\"white\")\r\n            segment.penup()\r\n            segment.goto(POSITIONS[seg], 0)\r\n            SNAKE_SEGMENTS.append(segment)\r\n        return SNAKE_SEGMENTS\r\n\r\n    def move(self):\r\n        for seg in range(len(self.snake_shape) - 1, 0, -1):\r\n            new_x = self.snake_shape[seg - 1].xcor()\r\n            new_y = self.snake_shape[seg - 1].ycor()\r\n            self.snake_shape[seg].goto(new_x, new_y)\r\n            print(self.snake_shape[seg].heading())\r\n        self.snake_shape[0].forward(DISTANCE)\r\n        print(self.snake_shape[0].heading())\r\n\r\n    # TODO Controler W, S, D, A\r\n    def turn_right(self):\r\n        self.snake_head.setheading(0)\r\n\r\n    def turn_up(self):\r\n        self.snake_head.setheading(90)\r\n\r\n    def turn_down(self):\r\n        self.snake_head.setheading(270)\r\n\r\n    def turn_left(self):\r\n        self.snake_head.setheading(180)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snake.py b/snake.py
+--- a/snake.py	
++++ b/snake.py	
+@@ -1,13 +1,11 @@
+ from turtle import Turtle
+ 
+-
+-screen = Screen()
+ POSITIONS = [0, -20, -40]
+ SNAKE_SEGMENTS = []
+ DISTANCE = 20
+ 
+ 
+-class Snake(Turtle):
++class Snake:
+     def __init__(self):
+         self.snake_shape = self.create_snake()
+         self.snake_head = self.snake_shape[0]
+@@ -32,13 +30,17 @@
+ 
+     # TODO Controler W, S, D, A
+     def turn_right(self):
+-        self.snake_head.setheading(0)
++        if self.snake_head.heading() != 180:
++            self.snake_head.setheading(0)
+ 
+     def turn_up(self):
+-        self.snake_head.setheading(90)
++        if self.snake_head.heading() != 270:
++            self.snake_head.setheading(90)
+ 
+     def turn_down(self):
+-        self.snake_head.setheading(270)
++        if self.snake_head.heading() != 90:
++            self.snake_head.setheading(270)
+ 
+     def turn_left(self):
+-        self.snake_head.setheading(180)
++        if self.snake_head.heading() != 0:
++            self.snake_head.setheading(180)
