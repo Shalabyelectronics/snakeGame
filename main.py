@@ -44,7 +44,7 @@ while game_on:
     test.move()
     if test.snake_head.distance(food) <= 15:
         screen.tracer(0)
-        test.snake_incress()
+        test.snake_increase()
         food.food_generator()
         score_board.update_score()
 
