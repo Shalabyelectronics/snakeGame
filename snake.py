@@ -38,10 +38,6 @@ class Snake:
         segment.goto(position)
         self.snake_segments.append(segment)
 
-    def turn_right(self):
-        if self.snake_head.heading() != LEFT:
-            self.snake_head.setheading(RIGHT)
-
     def turn_up(self):
         if self.snake_head.heading() != DOWN:
             self.snake_head.setheading(UP)
@@ -49,6 +45,10 @@ class Snake:
     def turn_down(self):
         if self.snake_head.heading() != UP:
             self.snake_head.setheading(DOWN)
+
+    def turn_right(self):
+        if self.snake_head.heading() != LEFT:
+            self.snake_head.setheading(RIGHT)
 
     def turn_left(self):
         if self.snake_head.heading() != RIGHT:

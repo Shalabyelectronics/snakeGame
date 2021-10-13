@@ -17,9 +17,9 @@ screen.update()
 food = Food()
 score_board = Scoreboard()
 score_board.score_refresh()
-screen.onkey(key="d", fun=test.turn_right)
 screen.onkey(key="w", fun=test.turn_up)
 screen.onkey(key="s", fun=test.turn_down)
+screen.onkey(key="d", fun=test.turn_right)
 screen.onkey(key="a", fun=test.turn_left)
 
 
@@ -29,10 +29,8 @@ def wall_collision(snake):
 
 
 def snake_tail_collision(snake_head):
-    for index in range(2, len(test.snake_segments)):
-        if snake_head.distance(test.snake_segments[index]) < 10:
-            print(test.snake_segments[index].pos())
-            print(snake_head.pos())
+    for seg in test.snake_segments[1:]:
+        if snake_head.distance(seg) < 10:
             return True
 
 
